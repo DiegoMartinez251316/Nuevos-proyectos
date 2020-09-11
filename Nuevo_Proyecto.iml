@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="Nuevo Proyecto" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="java-gradle" name="Java-Gradle">
-      <configuration>
-        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/../../build" />
-        <option name="BUILDABLE" value="false" />
-      </configuration>
-    </facet>
-  </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../..">
-      <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jhjgjjj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddig = "14dp"
+    tools:context=".MainActivity" >
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancelar"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="460dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="inicio  sesión" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
